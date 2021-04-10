@@ -12,11 +12,14 @@ public class Main {
         int N = sc.nextInt();
             Factorial f = new Factorial();
             System.out.println(f.factorial(N));
-*/
+            */
         // 2: Write Program to revers digits
-            ReversDigits redigits = new ReversDigits();
+     /*       ReversDigits redigits = new ReversDigits();
             redigits.reversDigits();
 
+      */
         // 3: Write program to get set of int and output sum of odd and even
+        SumOfOddEven sumOfOddEven= new SumOfOddEven();
+        sumOfOddEven.sumOfOddEven();
     }
 }
